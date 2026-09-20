@@ -1,22 +1,21 @@
 # Muhammed Burhan M K — Personal Portfolio
 
-Premium dark-themed responsive portfolio built with plain HTML, CSS and JavaScript.
+Dark-themed responsive portfolio in plain HTML, CSS and JavaScript. No build step.
 
 ## Files
 
-- `index.html` — page structure and sections
-- `styles.css` — visual system and responsive styling
-- `script.js` — editable portfolio content and interactions
-- `assets/Burhan_Resume.pdf` — resume download
+- `index.html` — page structure
+- `styles.css` — design system, layout, animations
+- `script.js` — the `SITE` content object at the top (**edit this to change text/links**), followed by the code that renders it
 
 ## Editing content
 
-Edit the `portfolio` object near the top of `script.js` to change the hero, About, experience, skills, highlights, education and certifications.
+Everything lives in the `SITE` object at the top of `script.js`. Add or remove `{...}` items in a list; set a list to `[]` to hide its section. An experience item's optional `url` links the company name.
 
 ## Contact form
 
-The static site uses `mailto:` so the visitor's configured email app opens with the message pre-filled. For direct serverless delivery, connect a service such as Formspree, Web3Forms or EmailJS; never expose private API keys in frontend code.
+Uses `mailto:` (address set in `contact.email`), so the visitor's email app opens pre-filled. For direct delivery, connect Formspree, Web3Forms or EmailJS — never expose private API keys in frontend code.
 
 ## GitHub Pages
 
-This repository is intended for GitHub Pages. The main entry point is `index.html` at the repository root.
+Push all files to the repo root (`index.html` at the top level) and enable Pages from the `main` branch, `/ (root)`.
