@@ -25,10 +25,10 @@ const SITE = {
     ],
     statementTitle: "Impact snapshot",
     statement: [
-      { label: "funding & investment transactions reviewed", value: "1,000+" },
-      { label: "recurring KPI / MIS reporting automated", value: "90%" },
-      { label: "institutional client accounts supported", value: "400+" },
-      { label: "enterprise clients onboarded", value: "100+" },
+      { label: "Funding & Investment Transactions Reviewed", value: "1,000+" },
+      { label: "Recurring KPI / MIS Reporting Automated", value: "90%" },
+      { label: "Institutional Client Accounts Supported", value: "400+" },
+      { label: "Enterprise c\Clients Onboarded", value: "100+" },
     ],
   },
 
@@ -40,7 +40,7 @@ const SITE = {
       "But the numbers are only half the job. What actually pulls me in is the inefficiency hiding inside a process — the report that shouldn't still be manual, the data gap that needs catching before a client ever sees it, the model that turns a chaotic business into something you can reason about on one page. It's unglamorous work, but it's the reason people trust the number in front of them.",
       "My approach stays simple: question the data, fix the process, make the outcome easy to act on.",
     ],
-    facts: ["Financial Analysis", "Private Markets", "MIS & KPI Reporting", "Excel Automation", "Client Operations", "UAT & QA"],
+    facts: ["Financial Analysis", "Private Markets", "MIS & KPI Reporting", "Excel Automation", "Client Operations", "Process Automation"],
   },
 
   experience: {
