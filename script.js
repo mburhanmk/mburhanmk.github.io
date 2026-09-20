@@ -14,12 +14,12 @@ const portfolio = {
   ],
   facts:["Financial Analysis","Private Markets","MIS & KPI Reporting","Excel Automation","Client Operations","UAT & QA"],
   experience:[
-    {dates:"Dec 2023 — Present",role:"Junior Financial Analyst",company:"PrivateCircle",location:"Bengaluru, India",bullets:[
+    {dates:"Dec 2023 — Present",role:"Junior Financial Analyst",company:"PrivateCircle", url:"https://privatecircle.co/",location:"Bengaluru, India",bullets:[
       "Reviewed and verified 1,000+ funding and investment transactions across Indian markets for accuracy and analysis.",
       "Analysed KPI and performance data across 400+ client accounts, delivering weekly reports that reduced escalations, forwarded potential upgrades, and lifted retention.",
-      "Built forecasting and financial models in Excel for client reporting, plus reusable templates that scaled output without added headcount.",
+      "Built forecasting and projection Excel models for client stats, plus reusable templates for internal reporting, scaling output without added headcount.",
       "Automated 90% of daily, weekly, and monthly KPI/MIS reporting using advanced Excel macros, eliminating hours of manual work per cycle.",
-      "Onboarded 100+ enterprise clients across VC, PE, and Corporate segments end-to-end, from financial data setup through go-live and training.",
+      "Onboarded 100+ enterprise clients across VC, PE, and Corporate segments end-to-end, from package setup through go-live and product support.",
       "Led UAT across 10+ platform releases, identifying 30+ pre-launch defects and preserving data integrity for 400+ institutional users.",
       "Partnered with Product, Sales, and Operations teams to improve reporting accuracy and streamline process workflows."
     ]},
@@ -49,7 +49,7 @@ $("#aboutText").innerHTML=portfolio.about.map(p=>`<p>${p}</p>`).join("");
 $("#year").textContent=new Date().getFullYear();
 $("#metricList").innerHTML=portfolio.metrics.map(x=>`<div class="metric"><span class="metric-label">${x.label}</span><span class="metric-value">${x.value}</span></div>`).join("");
 $("#aboutFacts").innerHTML=portfolio.facts.map(x=>`<span class="fact">${x}</span>`).join("");
-$("#experienceList").innerHTML=portfolio.experience.map(x=>`<article class="timeline-item reveal"><div class="timeline-date">${x.dates}</div><div class="timeline-main"><h3>${x.role}</h3><div class="company">${x.company} · ${x.location}</div><ul>${x.bullets.map(b=>`<li>${b}</li>`).join("")}</ul></div></article>`).join("");
+$("#experienceList").innerHTML=portfolio.experience.map(x=>`<article class="timeline-item reveal"><div class="timeline-date">${x.dates}</div><div class="timeline-main"><h3>${x.role}</h3><div class="company">${x.url ? `<a href="${x.url}" target="_blank" rel="noopener noreferrer">${x.company}</a>` : x.company} · ${x.location}</div><ul>${x.bullets.map(b=>`<li>${b}</li>`).join("")}</ul></div></article>`).join("");
 $("#skillsGrid").innerHTML=portfolio.skills.map(x=>`<article class="skill-card reveal"><h3>${x.title}</h3><div class="skill-tags">${x.tags.map(t=>`<span class="tag">${t}</span>`).join("")}</div></article>`).join("");
 $("#highlightsGrid").innerHTML=portfolio.highlights.map((x,i)=>`<article class="highlight reveal"><span class="highlight-index">0${i+1}</span><h3>${x.title}</h3><p>${x.text}</p></article>`).join("");
 $("#educationList").innerHTML=portfolio.education.map(x=>`<article class="edu-item reveal"><div class="edu-degree">${x.degree}</div><div class="edu-school">${x.school}</div><div class="edu-date">${x.dates}</div></article>`).join("");
