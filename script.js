@@ -336,7 +336,7 @@ const SITE = {
       ev.preventDefault();
       const v = (id) => document.getElementById(id).value.trim();
       const body = "Sender email: " + v("sender-email") + "\n\n" + v("email-body");
-      location.href = "mailto:" + SITE.contact.email + "?subject=" + encodeURIComponent(v("email-subject")) + "&body=" + encodeURIComponent(body);
+      location.href = "mailto:burhanmk28@gmail.com" + SITE.contact.email + "?subject=" + encodeURIComponent(v("email-subject")) + "&body=" + encodeURIComponent(body);
     });
   }
 
