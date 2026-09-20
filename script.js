@@ -23,11 +23,11 @@ const portfolio = {
       "Led UAT across 10+ platform releases, identifying 30+ pre-launch defects and preserving data integrity for 400+ institutional users.",
       "Partnered with Product, Sales, and Operations teams to improve reporting accuracy and streamline process workflows."
     ]},
-    {dates:"Mar 2022 — Apr 2022",role:"Intern",company:"India Invest Inc",location:"Kozhikode, India",bullets:["Supported investment research and market data analysis, gaining early exposure to capital markets operations."]}
+    {dates:"Mar 2022 — Apr 2022",role:"Intern",company:"India Invest Inc", url:"https://indiainvestinc.com/",location:"Kozhikode, India",bullets:["Supported investment research and market data analysis, gaining early exposure to capital markets operations."]}
   ],
   skills:[
     {title:"Financial Analysis",tags:["Financial Statement Analysis","Ratio & Variance Analysis","Financial Modeling","Transaction Analysis & Review","Equity & Capital Markets Research","KPI Monitoring","Forensic Accounting"]},
-    {title:"Data & Reporting",tags:["Advanced Excel","Pivot Tables","XLOOKUP","INDEX-MATCH","Excel Macros","Google Sheets","SQL — Basic","MIS Reporting","Data Visualisation","Data Cleaning & Validation"]},
+    {title:"Data & Reporting",tags:["Advanced Excel","Pivot Tables","XLOOKUP","INDEX-MATCH","Excel Macros","Google Sheets","SQL — Basic","MIS Reporting","Data Visualisation","Data Cleaning & Validation","AI Tools"]},
     {title:"Process & Operations",tags:["Process Improvement & Automation","UAT & Quality Assurance","Client Onboarding","Stakeholder Management","Cross-Functional Collaboration"]}
   ],
   highlights:[
